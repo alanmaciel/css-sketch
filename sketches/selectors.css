@@ -1,0 +1,29 @@
+/*  
+ * The descendant combinator (an empty space)
+ * The child combinator (>)
+ * The adjacent sibling combinator (+)
+ * The general sibling combinator (~)
+ */
+
+/* The combinator is the empty space used in standard selectors:
+ * this descendant selector selects every <li> under <ul>
+
+ul li { margin-top: 1em ; }
+*/
+
+/* this rule selects any list that is a child of the div and the list item 
+ * children of the list.
+ *
+ */
+div > ul > li {
+  border: 1px solid red;
+  background-color: #eeeeee;
+}
+
+/* this rule selects the list items of the inner list
+ */
+div > ul > li > ul > li{
+  border: 1px solid blue;
+  margin-left: 10px;
+  background-color: white;
+}
