@@ -7,9 +7,9 @@
 
 /* The combinator is the empty space used in standard selectors:
  * this descendant selector selects every <li> under <ul>
+*/
 
 ul li { margin-top: 1em ; }
-*/
 
 /* this rule selects any list that is a child of the div and the list item 
  * children of the list.
