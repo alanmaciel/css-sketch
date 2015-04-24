@@ -19,6 +19,11 @@ h3 + p{
 h3 + p + p + p{
   font-weight: bold;
 }
+
+/* Selects all of the paragraphs NEXT TO and AFTER the h3 headers */ 
+h3 ~p {
+ color: blue;
+}
 /* The combinator is the empty space used in standard selectors:
  * this descendant selector selects every <li> under <ul>
 */
