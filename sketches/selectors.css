@@ -5,9 +5,17 @@
  * The general sibling combinator (~)
  */
 
+/* Descendant and child selectors handle elements below other elements
+ * to selec elements that are next to another element use Adjacency Selectors.
+
+ * Here selects the paragraphs that are next to the <h3> tags 
+ */
 h3 + p{
   font-style: italic;
 }
+/* Here you would read this as "The paragraph next to the paragraph next to the
+ * paragraph next to the header".
+ */
 h3 + p + p + p{
   font-weight: bold;
 }
