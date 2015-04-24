@@ -5,6 +5,9 @@
  * The general sibling combinator (~)
  */
 
+h3 + p{
+  font-style: italic;
+}
 /* The combinator is the empty space used in standard selectors:
  * this descendant selector selects every <li> under <ul>
 */
