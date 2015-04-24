@@ -8,6 +8,9 @@
 h3 + p{
   font-style: italic;
 }
+h3 + p + p + p{
+  font-weight: bold;
+}
 /* The combinator is the empty space used in standard selectors:
  * this descendant selector selects every <li> under <ul>
 */
